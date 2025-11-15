@@ -20,9 +20,9 @@ Para rodar o projeto, é necessário iniciar o **Frontend (React)** e o **Backen
 - **Python 3.10+**  
 - **Node.js 18+ (com NPM)**  
 
-### 🖥️ Passos
+# 🖥️ Passos
 
-# 1. Backend (Servidor Python)
+## 1. Backend (Servidor Python)
 ### 1. Navegue até a pasta do backend
 cd backend
 
@@ -32,7 +32,7 @@ pip install opencv-python numpy flask flask-cors
 ### 3. Inicie o servidor da API
 python app.py
 
-# 2. Frontend (Cliente React)
+## 2. Frontend (Cliente React)
 ### 1. Abra um NOVO terminal e navegue até a pasta do frontend
 cd frontend
 
