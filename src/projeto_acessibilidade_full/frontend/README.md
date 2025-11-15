@@ -4,7 +4,7 @@
  O projeto tem como objetivo desenvolver uma aplicação web interativa que permite a manipulação avançada de imagens.
   ## Running the code
 
-  Run `npm i` to install the dependencies.
+  Digite no terminal `npm i` para instalar as dependências do Node.js
 
-  Run `npm run dev` to start the development server.
+  Após isso digite `npm run dev` para iniciar o servidor de desenvolvimento Vite
   
