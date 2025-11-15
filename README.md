@@ -22,23 +22,23 @@ Para rodar o projeto, é necessário iniciar o **Frontend (React)** e o **Backen
 
 ### 🖥️ Passos
 
-#### 1. Backend (Servidor Python)
-# 1. Navegue até a pasta do backend
+# 1. Backend (Servidor Python)
+### 1. Navegue até a pasta do backend
 cd backend
 
-# 2. Instale as dependências (exemplo com Flask)
+### 2. Instale as dependências (exemplo com Flask)
 pip install opencv-python numpy flask flask-cors
 
-# 3. Inicie o servidor da API
+### 3. Inicie o servidor da API
 python app.py
 
-#### 2. Frontend (Cliente React)
-# 1. Abra um NOVO terminal e navegue até a pasta do frontend
+# 2. Frontend (Cliente React)
+### 1. Abra um NOVO terminal e navegue até a pasta do frontend
 cd frontend
 
-# 2. Instale as dependências do Node
+### 2. Instale as dependências do Node
 npm install
 
-# 3. Inicie o servidor de desenvolvimento Vite
+### 3. Inicie o servidor de desenvolvimento Vite
 npm run dev
 
