@@ -1,95 +1,44 @@
-Sistema de Manipulação de Canais de Cor
+# 🎨 Sistema de Manipulação de Canais de Cor para Aprimoramento de Imagens
 
-Aplicação web 100% client-side para manipulação de canais de cor e simulação de daltonismo, construída com React, TypeScript e a API de Canvas do HTML5.
+## 📌 Objetivo
+O projeto **“Sistema de Manipulação de Canais de Cor para Aprimoramento de Imagens”** é uma aplicação **web full-stack** que combina uma interface moderna com um backend robusto para oferecer recursos de manipulação e aprimoramento de imagens.  
 
-🎯 Objetivo do Projeto
+A aplicação permite **separar e visualizar canais de cor (RGB, HSV e LAB)**, **simular daltonismo (protanopia, deuteranopia, tritanopia)**, **converter imagens para diferentes formatos (PNG, BMP, JPG)** e contribuir para a **acessibilidade digital e inclusão visual**, possibilitando que profissionais adaptem materiais para pessoas com deficiência na percepção de cores.  
 
-Este projeto é uma ferramenta de processamento de imagens moderna, executada inteiramente no navegador do usuário, com foco em acessibilidade e análise visual. A aplicação permite que os usuários façam upload de imagens e apliquem filtros e manipulações de canais de cor em tempo real, sem a necessidade de um servidor de backend.
+## 🏗️ Arquitetura e Tecnologias
+O sistema é construído em duas camadas que se comunicam via **API**:
 
-O sistema foi originalmente concebido como parte de um trabalho acadêmico para a Universidade Tiradentes (Aracaju - SE, 2025).
+- **Frontend**: desenvolvido em **React**, utilizando **Vite** para build e servidor de desenvolvimento rápido, com **TypeScript (TSX)** para tipagem estática e componentes robustos. O ambiente é gerenciado pelo **Node.js**.  
+- **Backend**: implementado em **Python 3.10+**, utilizando **OpenCV (cv2)** para manipulação e simulação de daltonismo, **NumPy** para cálculos matriciais e frameworks como **Flask** ou **FastAPI** para disponibilizar a API consumida pelo frontend.  
 
-✨ Funcionalidades Principais
+Essa combinação garante uma interface amigável e responsiva para o usuário, enquanto o backend realiza o processamento pesado das imagens.
 
-Baseado na análise do App.tsx, o sistema suporta:
+## ▶️ Instruções de Execução
+Para rodar o projeto, é necessário iniciar o **Frontend (React)** e o **Backend (Python)** em terminais separados.
 
-Upload de Imagens: Carregue qualquer arquivo de imagem (com validação de tipo).
+### 🔧 Requisitos
+- **Python 3.10+**  
+- **Node.js 18+ (com NPM)**  
 
-Manipulação de Canais de Cor: Ajuste granular dos canais RGB (Vermelho, Verde, Azul), HSV (Matiz, Saturação, Valor) e LAB (Luminosidade, a, b).
+### 🖥️ Passos
 
-Simulação de Daltonismo: Aplique filtros em tempo real para:
+#### 1. Backend (Servidor Python)
+# 1. Navegue até a pasta do backend
+cd backend
 
-Protanopia
+# 2. Instale as dependências (exemplo com Flask)
+pip install opencv-python numpy flask flask-cors
 
-Deuteranopia
+# 3. Inicie o servidor da API
+python app.py
 
-Tritanopia
+#### 2. Frontend (Cliente React)
+# 1. Abra um NOVO terminal e navegue até a pasta do frontend
+cd frontend
 
-Ajuste de Intensidade: Controle a intensidade do filtro de daltonismo aplicado.
-
-Modo de Grade (Grid View): Visualize a imagem original e a processada lado a lado.
-
-Exportação de Imagens: Salve a imagem processada nos formatos PNG ou JPG com qualidade ajustável.
-
-Notificações (Toasts): Feedback instantâneo para o usuário sobre o carregamento e exportação de imagens.
-
-🛠️ Stack de Tecnologias (100% Client-Side)
-
-Toda a lógica de processamento de imagem é executada no navegador.
-
-React (v18+): Biblioteca principal para a construção da interface de usuário (UI).
-
-TypeScript (TSX): Utilizado para tipagem estática e componentes robustos.
-
-Vite: Ferramenta de build e servidor de desenvolvimento de alta performance.
-
-HTML5 Canvas API: O núcleo do processamento de imagem, usado para ler e manipular os pixels da imagem.
-
-Sonner: Biblioteca de notificações (toasts) elegante e simples.
-
-Node.js: Utilizado apenas para o ambiente de desenvolvimento (via Vite) e gerenciamento de pacotes (NPM). Não é usado como servidor de backend.
-
-🚀 Como Executar Localmente
-
-Este é um projeto padrão Vite.
-
-Pré-requisitos:
-
-Node.js (v18 ou superior)
-
-NPM (geralmente incluído no Node.js)
-
-Instalação e Execução:
-
-Clone o repositório:
-
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-
-
-Navegue até a pasta do projeto:
-
-cd seu-repositorio
-
-
-Instale as dependências:
-
+# 2. Instale as dependências do Node
 npm install
 
-
-Inicie o servidor de desenvolvimento:
-
+# 3. Inicie o servidor de desenvolvimento Vite
 npm run dev
 
-
-Abra seu navegador e acesse http://localhost:5173 (ou o endereço que o Vite fornecer).
-
-👨‍💻 Autores (Grupo 7)
-
-Emilly Vitória Cavalcante Siqueira Santos
-
-Pedro Cruz Flores
-
-Pedro Henrique Araújo Souza
-
-Gladiston Teles de Meneses Filho
-
-Guilherme Araújo Chaves
