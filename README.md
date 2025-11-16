@@ -2,6 +2,7 @@
 <p align="center">
   <img src="https://go-skill-icons.vercel.app/api/icons?i=react,vite,typescript,nodejs,python,opencv,numpy,flask,fastapi&theme=dark" />
 </p>
+
 ## 📌 Objetivo
 O projeto **“Sistema de Manipulação de Canais de Cor para Aprimoramento de Imagens”** é uma aplicação **web full-stack** que combina uma interface moderna com um backend robusto para oferecer recursos de manipulação e aprimoramento de imagens.  
 
